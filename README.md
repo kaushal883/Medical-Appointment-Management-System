@@ -1,21 +1,23 @@
-## Medical-Appointment-Management
-This is a servlet website that lets patients and doctors schedule appopintments, managing their time schedule, cancel them etc.
-### Screenshots
-![A screenshot was supposed to be here.](/screenshot1.PNG)
-![A screenshot was supposed to be here.](/screenshot2.PNG)
-### How to use
-- Make a Postgresql database and then initiliaze it with the [sql code.](https://github.com/MadProgrammerGR/Medical-Appointment-Management/blob/master/db.sql)
-- Download [Postgresql jar](https://jdbc.postgresql.org/download.html) and drop it in your Tomcat's lib folder.
-- Add the the following to your Tomcat's conf/context.xml file filling in user/pass/dbname respectively:
-```
-<Resource name="jdbc/postgres" auth="Container"
-    driverClassName="org.postgresql.Driver"
-    type="javax.sql.DataSource"
-    username="XXXXXXXXX"
-    password="XXXXXXXXX"
-    url="jdbc:postgresql://127.0.0.1:5432/XXXXXXXXX"
-    maxActive="8" />
-```
-- Clone and then import the project on eclipse.
-- Done!
-"# Medical-Appointment-Management-System" 
+# 🏥 Medical Appointment Management System
+
+This is a simple **Java-based web application** developed using **Servlets**, **JSP**, and **MySQL**. It allows patients to register, log in, and book appointments with doctors. This system is designed as a **minor project for students** or beginners learning Java web development.
+
+## 💻 Technologies Used
+
+- Java (Servlets, JSP)
+- HTML & CSS
+- MySQL Database
+- Apache Tomcat Server
+
+## 🔑 Key Features
+
+- Patient registration and login
+- Doctor appointment booking
+- View appointment history
+- Simple admin-like interface (optional)
+
+## 🚀 How to Run
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/MedicalAppointmentSystem.git
